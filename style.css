@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+#todo {
+    text-transform: lowercase;
+}
+
+.todo {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(305deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 71, 1) 35%, rgba(128, 71, 71, 1) 67%, rgba(79, 16, 187, 0.6054796918767507) 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    display: none;
+}
+
+.box {
+    width: 100%;
+    background-color: rgb(138, 112, 125);
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 50px rgb(12, 0, 6);
+    /* background-color: rgb(13, 1, 39); */
+
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Inter';
+    color: rgb(13, 1, 39);
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(196, 173, 247);
+
+}
+
+.input {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.box input {
+    width: 80%;
+    float: left;
+    padding: 10px;
+    margin: 20px 0;
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    border-radius: 10px 0 0 10px;
+
+    border: none;
+}
+
+.add-btn {
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgb(13, 1, 39);
+    border: none;
+    color: rgb(133, 82, 111);
+    transition: all 0.5s;
+
+}
+
+.add-btn:hover {
+    margin: 20px 0;
+    color: rgb(199, 173, 255);
+    background-color: rgb(59, 8, 38);
+
+}
+
+.ed-btn {
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgb(13, 1, 39);
+    border: none;
+    color: rgb(133, 82, 111);
+    transition: all 0.5s;
+    display: none;
+    font-size: 18px;
+
+
+}
+
+.ed-btn:hover {
+    margin: 20px 0;
+    color: rgb(199, 173, 255);
+    background-color: rgb(59, 8, 38);
+
+}
+
+.card {
+    margin: 30px auto;
+    display: none;
+    transition: all 0.5s;
+    font-family: 'Oxygen';
+}
+
+.list-group-item {
+    /* position: relative; */
+    width: 80%;
+    border-radius: 0.375rem;
+    border: none;
+    padding: 9px 16px;
+    min-height: 42px;
+    font-size: 18px;
+
+}
+
+.dlt-btn {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 10%;
+    border: none;
+    color: rgb(13, 1, 39);
+    font-size: 16px;
+    font-weight: 600;
+    height: inherit;
+    padding: 9px;
+    border-radius: 0.375rem;
+    background-color: transparent;
+    font-size: 18px;
+    transition: all 0.5s;
+
+
+}
+
+.dlt-btn:hover {
+    background-color: rgb(13, 1, 39);
+    color: rgb(133, 82, 111);
+}
+
+.edit-btn {
+    top: 0;
+    right: 10%;
+    position: absolute;
+    width: 10%;
+    border: none;
+    color: rgb(13, 1, 39);
+    font-size: 16px;
+    font-weight: 600;
+    /* height: inherit; */
+    padding: 9px;
+    border-radius: 0.375rem;
+    background-color: transparent;
+    font-size: 18px;
+    transition: all 0.5s;
+
+
+}
+
+.edit-btn:hover {
+    background-color: rgb(13, 1, 39);
+    color: rgb(133, 82, 111);
+}
+
+.list-group {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    position: relative;
+}
+
+.clear-btn {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(13, 1, 39);
+    border: none;
+    color: rgb(133, 82, 111);
+    transition: all 0.5s;
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    font-size: 18px;
+
+
+}
+
+.clear-btn:hover {
+    color: rgb(199, 173, 255);
+    background-color: rgb(59, 8, 38);
+
+}
